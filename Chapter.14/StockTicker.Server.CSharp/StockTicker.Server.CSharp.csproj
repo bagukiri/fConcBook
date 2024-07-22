@@ -17,5 +17,5 @@
   <ItemGroup>
     <Content Include="paket.references" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

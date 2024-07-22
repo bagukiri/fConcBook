@@ -16,5 +16,5 @@
     <Compile Include="EventSourcing\Events.fs" />
     <Compile Include="EventSourcing\EventHandler.fs" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

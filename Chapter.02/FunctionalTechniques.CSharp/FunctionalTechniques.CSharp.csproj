@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <None Update="google-10000-english\google-10000-english.txt">
@@ -12,12 +12,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>    
+  <ItemGroup>
     <ProjectReference Include="..\..\Common\BenchmarkUtils\BenchmarkUtils.fsproj" />
     <ProjectReference Include="..\..\Common\Utilities\Utilities.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="paket.references" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

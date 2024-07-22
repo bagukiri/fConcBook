@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\..\Common\Functional.FSharp\AsyncEx.fs">
@@ -28,5 +28,5 @@
     <ProjectReference Include="..\..\Chapter.08\StockAnalyzer.FSharp\StockAnalyzer.FSharp.fsproj" />
     <ProjectReference Include="..\..\Common\Utilities\Utilities.fsproj" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

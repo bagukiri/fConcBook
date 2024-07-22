@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="paket.references" />
@@ -15,5 +15,5 @@
     <ProjectReference Include="..\..\Common\BenchmarkUtils\BenchmarkUtils.fsproj" />
     <ProjectReference Include="..\..\Common\Utilities\Utilities.fsproj" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

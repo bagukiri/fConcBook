@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RxAgentScheduler.fs" />
@@ -15,5 +15,5 @@
     <ProjectReference Include="..\..\..\Chapter.11\ReactiveAgent.FSharp\ReactiveAgent.FSharp.fsproj" />
     <ProjectReference Include="..\..\..\Common\Functional.FSharp\Functional.FSharp.fsproj" />
   </ItemGroup>
-  <Import Project="..\..\..\Paket.Restore.targets" />
+  <Import Project="..\..\..\.paket\Paket.Restore.targets" />
 </Project>

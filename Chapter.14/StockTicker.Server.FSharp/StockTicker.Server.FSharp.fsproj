@@ -23,5 +23,5 @@
     <ProjectReference Include="..\..\Chapter.06\TwitterEmotionAnalysis.CSharp\TwitterEmotionAnalysis.CSharp.csproj" />
     <ProjectReference Include="..\StockTicker.Core\StockTicker.Core.fsproj" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

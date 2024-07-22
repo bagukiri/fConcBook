@@ -2,10 +2,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="WebSocketMiddleware.fs" />    
+    <Compile Include="WebSocketMiddleware.fs" />
     <Compile Include="ViewEngine/Giraffe.fs" />
     <Compile Include="ViewEngine/ViewEngine.fs" />
     <Compile Include="ViewEngine/Pages.fs" />
@@ -13,5 +13,5 @@
     <Compile Include="Program.fs" />
     <Content Include="paket.references" />
   </ItemGroup>
-  <Import Project="..\..\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
